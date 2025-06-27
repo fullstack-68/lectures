@@ -13,3 +13,8 @@
 
 - [HTML](/src/T02_js_ts/T02.html)
 - [PDF](/src/T02_js_ts/T02.pdf)
+
+## TypeScript ESM (Optional)
+
+- [HTML](/src/T02A_ts_esm/T02A.html)
+- [PDF](/src/T02A_ts_esm/T02A.pdf)
