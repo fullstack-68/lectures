@@ -387,11 +387,14 @@ user.<span class="hljs-property">name</span> = <span class="hljs-number">20</spa
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="33" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;" data-marpit-pagination-total="39">
 <h1 id="using-tsconfig-template">Using TSconfig template</h1>
 <ul>
-<li><code>pnpm install -D @tsconfig/node-lts</code> <em>(<a href="https://github.com/tsconfig/bases">What</a>)</em></li>
+<li><code>@types/node @tsconfig/node-lts @tsconfig/node-ts</code> <em>(<a href="https://github.com/tsconfig/bases">What</a>)</em></li>
 </ul>
 <p><code>./tsconfig.json</code></p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;extends&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;@tsconfig/node-lts/tsconfig.json&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;extends&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span>
+    <span class="hljs-string">&quot;@tsconfig/node-lts/tsconfig.json&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-string">&quot;@tsconfig/node-ts/tsconfig.json&quot;</span>
+  <span class="hljs-punctuation">]</span><span class="hljs-punctuation">,</span>
   <span class="hljs-attr">&quot;compilerOptions&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
     <span class="hljs-attr">&quot;outDir&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;./dist&quot;</span>
   <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span>
