@@ -2,17 +2,17 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T02_js_ts"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\T02_js_ts"
+# npm run html $folder
+# npm run pdf $folder
 
 # $folder = "src\T02A_ts_esm"
 # npm run html $folder
 # npm run pdf $folder
 
-# $folder = "src\T03_pf_db"
-# npm run html $folder
-# npm run pdf $folder
+$folder = "src\T03_pf_db"
+npm run html $folder
+npm run pdf $folder
 
 # $folder = "src\T04_pf_backend"
 # npm run html $folder

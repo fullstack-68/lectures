@@ -113,7 +113,8 @@
 <li>
 <p><img class="emoji" draggable="false" alt="💾" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4be.svg" data-marp-twemoji=""/> <code>./_entrypoint/init.sh</code> <a href="https://github.com/fullstack-68/pf-db/blob/main/_entrypoint/init.sh">(link)</a></p>
 <ul>
-<li><em>Make sure that you save with LF option. <a href="https://stackoverflow.com/a/1552775">(What?)</a></em></li>
+<li><em>Windows: Make sure that you save with LF option. <a href="https://stackoverflow.com/a/1552775">(What?)</a></em></li>
+<li><em>Mac:</em> <code>chmod +x ./entrypoint/init.sh</code></li>
 </ul>
 </li>
 </ul>
@@ -278,7 +279,12 @@
 <li><img class="emoji" draggable="false" alt="💾" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4be.svg" data-marp-twemoji=""/> <code>./db/utils.ts</code> <a href="https://github.com/fullstack-68/pf-db/blob/main/db/utils.ts">(Link)</a></li>
 <li><img class="emoji" draggable="false" alt="💾" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4be.svg" data-marp-twemoji=""/> <code>./db/schema.ts</code> <a href="https://github.com/fullstack-68/pf-db/blob/main/db/schema.ts">(Link)</a></li>
 <li><img class="emoji" draggable="false" alt="💾" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4be.svg" data-marp-twemoji=""/> <code>./drizzle.config.ts</code> <a href="https://github.com/fullstack-68/pf-db/blob/main/drizzle.config.ts">(Link)</a></li>
-<li><img class="emoji" draggable="false" alt="💾" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4be.svg" data-marp-twemoji=""/> <code>./.npmrc</code> from <code>./npmrc.example</code> <a href="https://github.com/fullstack-68/pf-db/blob/main/.npmrc.example">(Link)</a> <a href="https://docs.npmjs.com/cli/v10/configuring-npm/npmrc">(What?)</a></li>
+<li><img class="emoji" draggable="false" alt="💾" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f4be.svg" data-marp-twemoji=""/> <code>./.npmrc</code> from <code>./npmrc.example</code> <a href="https://github.com/fullstack-68/pf-db/blob/main/.npmrc.example">(Link)</a> <a href="https://docs.npmjs.com/cli/v10/configuring-npm/npmrc">(What?)</a>
+<ul>
+<li>Windows: you must choose a terminal.</li>
+<li>Mac: optional</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -289,13 +295,11 @@
 <p><code>package.json</code></p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-json"><span class="hljs-punctuation">{</span>
   <span class="hljs-attr">&quot;scripts&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
-    <span class="hljs-attr">&quot;scripts&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span>
-      <span class="hljs-attr">&quot;db:generate&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;cross-env NODE_OPTIONS=&#x27;--import tsx&#x27; drizzle-kit generate&quot;</span><span class="hljs-punctuation">,</span>
-      <span class="hljs-attr">&quot;db:push&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;cross-env NODE_OPTIONS=&#x27;--import tsx&#x27; drizzle-kit push&quot;</span><span class="hljs-punctuation">,</span>
-      <span class="hljs-attr">&quot;db:migrate&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;cross-env NODE_OPTIONS=&#x27;--import tsx&#x27; drizzle-kit migrate&quot;</span><span class="hljs-punctuation">,</span>
-      <span class="hljs-attr">&quot;db:prototype&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;tsx ./db/prototype.ts&quot;</span><span class="hljs-punctuation">,</span>
-      <span class="hljs-attr">&quot;eol&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;eolConverter _entrypoint/*.sh&quot;</span>
-    <span class="hljs-punctuation">}</span>
+    <span class="hljs-attr">&quot;db:generate&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;cross-env NODE_OPTIONS=&#x27;--import tsx&#x27; drizzle-kit generate&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">&quot;db:push&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;cross-env NODE_OPTIONS=&#x27;--import tsx&#x27; drizzle-kit push&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">&quot;db:migrate&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;cross-env NODE_OPTIONS=&#x27;--import tsx&#x27; drizzle-kit migrate&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">&quot;db:prototype&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;tsx ./db/prototype.ts&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-attr">&quot;eol&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;eolConverter _entrypoint/*.sh&quot;</span>
   <span class="hljs-punctuation">}</span>
 <span class="hljs-punctuation">}</span>
 </code></pre>
