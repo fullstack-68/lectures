@@ -14,13 +14,13 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T04_pf_backend"
-npm run html $folder
-npm run pdf $folder
-
-# $folder = "src\T05_pf_frontend"
+# $folder = "src\T04_pf_backend"
 # npm run html $folder
 # npm run pdf $folder
+
+$folder = "src\T05_pf_frontend"
+npm run html $folder
+npm run pdf $folder
 
 # $folder = "src\T06_pf_testing"
 # npm run html $folder
