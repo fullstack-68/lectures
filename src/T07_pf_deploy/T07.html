@@ -42,7 +42,15 @@
 <h1 id="setup">Setup</h1>
 <ul>
 <li><code>git clone https://github.com/fullstack-68/pf-deploy.git</code></li>
-<li>Follow <code>README.md</code></li>
+<li><code>cd pf-deploy</code></li>
+<li>Make <code>.env</code> from <code>.env.example</code> (Make necessary changes.)</li>
+<li>Take care of <code>./_entrypoint/init.sh</code>
+<ul>
+<li>Windows: Make sure that you save with LF option.</li>
+<li>Mac/Linux: <code>chmod +x ./\_entrypoint/init.sh</code></li>
+</ul>
+</li>
+<li><code>docker compose up -d --force-recreate</code></li>
 </ul>
 <footer>261497: Fullstack Development</footer>
 </section>
@@ -53,6 +61,7 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="7" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;" data-marpit-pagination-total="9">
 <h1 id="setup-1">Setup</h1>
 <ul>
+<li><code>ssh USERNAME@10.10.x.x</code></li>
 <li>Repeat steps we just did on local machine</li>
 </ul>
 <footer>261497: Fullstack Development</footer>
