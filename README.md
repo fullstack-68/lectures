@@ -26,3 +26,4 @@
 | DB       | [HTML](/src/T03_pf_db/T03.html)       | [PDF](/src/T03_pf_db/T03.pdf)       |
 | Backend  | [HTML](/src/T04_pf_backend/T04.html)  | [PDF](/src/T04_pf_backend/T04.pdf)  |
 | Frontend | [HTML](/src/T05_pf_frontend/T05.html) | [PDF](/src/T05_pf_frontend/T05.pdf) |
+| Testing  | [HTML](/src/T06_pf_testing/T06.html)  | [PDF](/src/T06_pf_testing/T06.pdf)  |
