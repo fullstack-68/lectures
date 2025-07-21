@@ -1,0 +1,5 @@
+{
+  "markdown.copyFiles.destination": {
+    "**/*": "${documentDirName}/img/paste-${unixTime}.png"
+  }
+}
