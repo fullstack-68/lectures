@@ -111,7 +111,8 @@
 <p>If you have not deleted the folder.</p>
 <ul>
 <li><code>docker compose exec -it backend sh</code></li>
-<li><code>cd logs &amp; rm *</code></li>
+<li><code>cd logs</code></li>
+<li><code>rm *.*</code></li>
 <li><code>docker compose down</code></li>
 <li><code>docker volume prune -a</code></li>
 </ul>
@@ -120,7 +121,8 @@
 <p>If you already delete the folder.</p>
 <ul>
 <li><code>docker run -it --rm -v ./logs:/home/ubuntu ubuntu /bin/bash</code></li>
-<li><code>cd /home/ubuntu/logs &amp; rm *</code></li>
+<li><code>cd /home/ubuntu/logs</code></li>
+<li><code>rm *.*</code></li>
 </ul>
 </li>
 </ul>
