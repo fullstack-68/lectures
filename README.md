@@ -28,3 +28,8 @@
 | Frontend   | [HTML](/src/T05_pf_frontend/T05.html) | [PDF](/src/T05_pf_frontend/T05.pdf) |
 | Testing    | [HTML](/src/T06_pf_testing/T06.html)  | [PDF](/src/T06_pf_testing/T06.pdf)  |
 | Deployment | [HTML](/src/T07_pf_deploy/T07.html)   | [PDF](/src/T07_pf_deploy/T07.pdf)   |
+
+## Database Design
+
+- [HTML](/src/D01_database_design/D01.html)
+- [PDF](/src/D01_database_design/D01.pdf)
