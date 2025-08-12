@@ -29,7 +29,14 @@
 | Testing    | [HTML](/src/T06_pf_testing/T06.html)  | [PDF](/src/T06_pf_testing/T06.pdf)  |
 | Deployment | [HTML](/src/T07_pf_deploy/T07.html)   | [PDF](/src/T07_pf_deploy/T07.pdf)   |
 
+[Presentation](https://youtube.com/playlist?list=PLNGLpHQhvGrudVf6q3Y350Q1R7hOkG0Ec&si=UJz1f_nmYbygfUxs)
+
 ## Database Design
 
 - [HTML](/src/D01_database_design/D01.html)
 - [PDF](/src/D01_database_design/D01.pdf)
+
+## Fullstack Landscape
+
+- [HTML](/src/T08_landscape/T08.html)
+- [PDF](/src/T08_landscape/T08.pdf)

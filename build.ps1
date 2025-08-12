@@ -1,6 +1,6 @@
-$folder = "src\D01_database_design"
-npm run html $folder
-npm run pdf $folder
+# $folder = "src\D01_database_design"
+# npm run html $folder
+# npm run pdf $folder
 
 # $folder = "src\T01_intro"
 # npm run html $folder
@@ -34,9 +34,9 @@ npm run pdf $folder
 # npm run html $folder
 # npm run pdf $folder
 
-# $folder = "src\T08_landscape"
-# npm run html $folder
-# npm run pdf $folder
+$folder = "src\T08_landscape"
+npm run html $folder
+npm run pdf $folder
 
 # $folder = "src\T09_ts_esm"
 # npm run html $folder
