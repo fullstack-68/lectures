@@ -34,21 +34,17 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\T08_landscape"
+# $folder = "src\T08_landscape"
+# npm run html $folder
+# npm run pdf $folder
+
+$folder = "src\T09_auth_p1"
 npm run html $folder
 npm run pdf $folder
 
-# $folder = "src\T09_ts_esm"
-# npm run html $folder
-# npm run pdf $folder
-
-# $folder = "src\T10_auth_p1"
-# npm run html $folder
-# npm run pdf $folder
-
-# $folder = "src\T10_auth_p2"
-# npm run html $folder
-# npm run pdf $folder
+$folder = "src\T09_auth_p2"
+npm run html $folder
+npm run pdf $folder
 
 # $folder = "src\T10_auth_p3"
 # npm run html $folder
