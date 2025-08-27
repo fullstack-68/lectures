@@ -46,11 +46,11 @@ $folder = "src\T09_auth_p2"
 npm run html $folder
 npm run pdf $folder
 
-# $folder = "src\T10_auth_p3"
-# npm run html $folder
-# npm run pdf $folder
+$folder = "src\T09_auth_p3"
+npm run html $folder
+npm run pdf $folder
 
-# $folder = "src\T10_auth_p4"
+# $folder = "src\T09_auth_p4"
 # npm run html $folder
 # npm run pdf $folder
 
