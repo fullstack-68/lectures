@@ -111,10 +111,10 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="12" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;--marpit-advanced-background-split:50%;" data-marpit-pagination-total="59" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;./img/oauth_cs0.png&quot;);background-size:contain;"></figure></div></section></foreignObject><foreignObject width="50%" height="720"><section id="12" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="12" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;--marpit-advanced-background-split:50%;" data-marpit-pagination-total="59" data-marpit-advanced-background="content" data-marpit-advanced-background-split="right">
 <h1 id="setup">Setup</h1>
 <ul>
-<li>You are a guest at a hotel.</li>
-<li>You already checked out.</li>
-<li>You forgot your stuff in the room.</li>
-<li>You want a porter to get your stuff for you.<br />
+<li>A guest at a hotel.</li>
+<li>The guest already checked out.</li>
+<li>The guest forgot his stuff in the room.</li>
+<li>He wanted a porter to get his stuff for him.<br />
 </li>
 </ul>
 <footer>261497: Fullstack Development</footer>
@@ -147,16 +147,16 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="18" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;" data-marpit-pagination-total="59">
 <h1 id="authorization-code-flow-1">Authorization code flow</h1>
 <ul>
-<li>You (<code>guest</code>) authorize <code>porter</code> to access your resource.</li>
-<li><code>porter</code> does not need to know who you are.</li>
-<li>The keycard reader at the door also doesn't need to have your information.</li>
+<li>A <code>guest</code> authorized a <code>porter</code> to access his resource.</li>
+<li><code>porter</code> did not need to know who the guest was.</li>
+<li>The keycard reader at the door also didn't need to have the guest's information.</li>
 </ul>
 <footer>261497: Fullstack Development</footer>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="19" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;" data-marpit-pagination-total="59">
 <h1 id="authentication">Authentication?</h1>
 <ul>
-<li>But what if the porter wants to know who you are.</li>
+<li>But what if the porter wanted to know who the guest was.</li>
 <li>There are two ways.</li>
 </ul>
 <footer>261497: Fullstack Development</footer>
@@ -372,9 +372,18 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="47" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="47" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;" data-marpit-pagination-total="59">
 <h1 id="google-oauth-20">Google OAuth 2.0</h1>
 <ul>
-<li><code>Authoriation URL = https://accounts.google.com/o/oauth2/v2/auth?client_id=CLIENT_ID&amp;redirect_uri=REDIRECT_URI&amp;response_type=code&amp;scope=openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile</code></li>
-<li><code>Token URL = https://oauth2.googleapis.com/token?client_id=CLIENT_ID&amp;client_secret=CLIENT_SECRET&amp;code=CODE&amp;redirect_uri=CALLBACK_URL&amp;grant_type=authorization_code</code></li>
-<li><code>Resource URL = https://www.googleapis.com/oauth2/v2/userinfo</code></li>
+<li>
+<p><a href="https://developers.google.com/identity/protocols/oauth2/web-server">Guide</a></p>
+</li>
+<li>
+<p><code>Authoriation URL = https://accounts.google.com/o/oauth2/v2/auth?client_id=CLIENT_ID&amp;redirect_uri=REDIRECT_URI&amp;response_type=code&amp;scope=openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile</code></p>
+</li>
+<li>
+<p><code>Token URL = https://oauth2.googleapis.com/token?client_id=CLIENT_ID&amp;client_secret=CLIENT_SECRET&amp;code=CODE&amp;redirect_uri=CALLBACK_URL&amp;grant_type=authorization_code</code></p>
+</li>
+<li>
+<p><code>Resource URL = https://www.googleapis.com/oauth2/v2/userinfo</code></p>
+</li>
 </ul>
 <footer>261497: Fullstack Development</footer>
 </section>
@@ -395,7 +404,7 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="50" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="50" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;" data-marpit-pagination-total="59">
 <h1 id="setup-5">Setup</h1>
 <ul>
-<li><code>git clone -b signin-oauth https://github.com/fullstack-67/auth-mpa-v2.git auth-signin-oauth</code></li>
+<li><code>git clone https://github.com/fullstack-68/auth-signin-oauth.git</code></li>
 <li>Fill in <code>.env</code>
 <ul>
 <li>Make sure to update <code>Callback URL</code> in your Github Oauth app.</li>
