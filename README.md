@@ -47,3 +47,5 @@
 | ------ | ----------------------------------- | --------------------------------- |
 | Part 1 | [HTML](/src/T09_auth_p1/T09p1.html) | [PDF](/src/T09_auth_p1/T09p1.pdf) |
 | Part 2 | [HTML](/src/T09_auth_p2/T09p2.html) | [PDF](/src/T09_auth_p2/T09p2.pdf) |
+| Part 3 | [HTML](/src/T09_auth_p3/T09p3.html) | [PDF](/src/T09_auth_p3/T09p3.pdf) |
+| Part 4 | [HTML](/src/T09_auth_p4/T09p4.html) | [PDF](/src/T09_auth_p4/T09p4.pdf) |
