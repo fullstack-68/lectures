@@ -49,3 +49,17 @@
 | Part 2 | [HTML](/src/T09_auth_p2/T09p2.html) | [PDF](/src/T09_auth_p2/T09p2.pdf) |
 | Part 3 | [HTML](/src/T09_auth_p3/T09p3.html) | [PDF](/src/T09_auth_p3/T09p3.pdf) |
 | Part 4 | [HTML](/src/T09_auth_p4/T09p4.html) | [PDF](/src/T09_auth_p4/T09p4.pdf) |
+
+## Backend Architecture Design
+
+- [HTML](/src/D02_backend_design/D02.html)
+- [PDF](/src/D02_backend_design/D02.pdf)
+
+## API Architecture and Design
+
+| Topic  | Links                                      |                                          |
+| ------ | ------------------------------------------ | ---------------------------------------- |
+| Part 1 | [HTML](/src/D03_backend_api_p1/D03p1.html) | [PDF](/src/D03_backend_api_p1/D03p1.pdf) |
+| Part 2 | [HTML](/src/D03_backend_api_p2/D03p2.html) | [PDF](/src/D03_backend_api_p2/D03p2.pdf) |
+| Part 3 | [HTML]()                                   | [PDF]()                                  |
+| Part 4 | [HTML]()                                   | [PDF]()                                  |
