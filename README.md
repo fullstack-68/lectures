@@ -61,5 +61,5 @@
 | ------ | ------------------------------------------ | ---------------------------------------- |
 | Part 1 | [HTML](/src/D03_backend_api_p1/D03p1.html) | [PDF](/src/D03_backend_api_p1/D03p1.pdf) |
 | Part 2 | [HTML](/src/D03_backend_api_p2/D03p2.html) | [PDF](/src/D03_backend_api_p2/D03p2.pdf) |
-| Part 3 | [HTML]()                                   | [PDF]()                                  |
-| Part 4 | [HTML]()                                   | [PDF]()                                  |
+| Part 3 | [HTML](/src/D03_backend_api_p3/D03p3.html) | [PDF](/src/D03_backend_api_p3/D03p3.pdf) |
+| Part 4 | [HTML](/src/D03_backend_api_p4/D03p4.html) | [PDF](/src/D03_backend_api_p4/D03p4.pdf) |
