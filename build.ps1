@@ -2,7 +2,23 @@
 # npm run html $folder
 # npm run pdf $folder
 
-$folder = "src\D02_api_design"
+# $folder = "src\D02_backend_design"
+# npm run html $folder
+# npm run pdf $folder
+
+# $folder = "src\D03_backend_api_p1"
+# npm run html $folder
+# npm run pdf $folder
+
+# $folder = "src\D03_backend_api_p2"
+# npm run html $folder
+# npm run pdf $folder
+
+# $folder = "src\D03_backend_api_p3"
+# npm run html $folder
+# npm run pdf $folder
+
+$folder = "src\D03_backend_api_p4"
 npm run html $folder
 npm run pdf $folder
 
