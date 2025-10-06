@@ -468,7 +468,7 @@
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="45" data-class="invert" data-paginate="true" data-footer="261497: Fullstack Development" data-theme="default" lang="en-US" class="invert" data-marpit-pagination="45" style="--class:invert;--paginate:true;--footer:261497: Fullstack Development;--theme:default;" data-marpit-pagination-total="66">
 <h1 id="strategy">Strategy</h1>
 <ul>
-<li><code>Click</code> component (<code>./src/components/Clock.tsx</code>) is a <em>server component</em>.
+<li><code>Clock</code> component (<code>./src/components/Clock.tsx</code>) is a <em>server component</em>.
 <ul>
 <li>Use <a href="https://nextjs.org/docs/app/api-reference/functions/fetch"><code>fetch</code> API</a> to fetch data.</li>
 </ul>
@@ -681,7 +681,7 @@ es.<span class="hljs-title function_">close</span>();
 <h1 id="how-it-works">How it works.</h1>
 <ul>
 <li>Frontend app connects to <code>/subscribe</code> endpoints which opens SSE connection.</li>
-<li>Backend app keep the <code>req</code> object of subscribers in an array.</li>
+<li>Backend app keep the <code>res</code> object of subscribers in an array.</li>
 <li>When a new <code>todo</code> is created, backend <code>broadcast</code> the <code>todo</code> text to all subscribers.</li>
 </ul>
 <footer>261497: Fullstack Development</footer>
