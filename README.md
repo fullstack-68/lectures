@@ -73,3 +73,8 @@
 
 - [HTML](/src/T11_form_validation/T11.html)
 - [PDF](/src/T11_form_validation/T11.pdf)
+
+## Frappe Framework
+
+- [HTML](/src/T12_frappe/T12.html)
+- [PDF](/src/T12_frappe/T12.pdf)
